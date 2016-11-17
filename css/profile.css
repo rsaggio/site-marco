@@ -1,0 +1,97 @@
+.actions-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.actions-list-item {
+	width: 100%;
+	
+	border-radius: 8px;
+	border: 1px solid #000;
+	margin: 2em 0;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+.actions-list-item a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+
+	height: 100%;
+	padding: 2em;
+	
+	text-decoration: none;
+	box-sizing: border-box;
+	color: #000;
+}
+
+.card-title {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.card-footer {
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+.card-footer.active {
+	color: #FFF;
+	padding: .5em;
+	border: 1px solid #000;
+	background-color: #000;
+	border-radius: 8px;
+}
+
+.card-invest {
+	background-image: url(../img/invest.svg);
+}
+
+.card-impactInvesting {
+	background-image: url(../img/impact-investing.svg);
+}
+
+.card-raiseCapital {
+	background-image: url(../img/raise-capital.svg);	
+}
+
+@media(min-width: 768px) {
+	.actions-list {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+
+	.actions-list-item {
+		-ms-flex-preferred-size: 30%;
+		    flex-basis: 30%;
+		height: 215px;
+	}
+		
+}
+
+@media(min-width: 1100px) {
+	.actions-list-item {
+		width: 320px;
+		height: 415px;
+	}
+}

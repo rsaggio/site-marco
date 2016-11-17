@@ -1,0 +1,48 @@
+.invest-cover {
+	background-color: #33CC99;
+}
+
+.destaque-title {
+	margin-top: 2em;
+}
+
+.project-options {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 4em 0;
+}
+
+.project-options span {
+	font-size: 2.2em;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.invest .bigger-title {
+	text-align: center;
+}
+
+@media(min-width: 768px) {
+	.project-options {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	}
+	.project-options span {
+		-ms-flex-preferred-size: 30%;
+		    flex-basis: 30%;
+		margin-top: 0;
+	}
+}

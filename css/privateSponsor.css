@@ -1,0 +1,27 @@
+.privateSponsor-submit {
+	text-align: center;
+	margin: 4em 0 1em 0;
+	background-color: #4C97EF;
+	border: 1px solid #4C97EF;
+}
+
+.somePrivateProject-information-button + label {
+	color: #4C97EF;
+	border: 2px solid #4C97EF;
+}
+
+.somePrivateProject-information-button:checked + label,
+.somePrivateProject-information-button + label:hover { background-color: #4C97EF; }
+
+.somePrivateProject-information-button input:checked + label {
+	color: #FFF;
+}
+
+.fieldsetReplacer-privateSponsor label {
+	color: #4C97EF;
+}
+
+.fieldsetReplacer-privateSponsor label:before {
+	display: inline-block;
+	border: 1px solid #4C97EF;
+}

@@ -1,0 +1,57 @@
+.engagedCitizen-text {
+	color: #FD525C;
+}
+
+.fieldset-title.engagedCitizen {
+	color: #FD525C;
+}
+
+.question .signupForm-fieldsetReplacer {
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+
+.investmentType-fieldset {
+	margin-top: 3em;
+}
+
+.fieldset-title {
+	font-size: 1.5em;
+	margin-top: 1.8em;
+	display: block;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.investmentType-button + label  {
+	color: #FD525C;
+	border: 2px solid #FD525C;
+}
+
+
+.fieldsetReplacer-engagedCitizen label {
+	color: #FD525C;
+}
+
+.fieldsetReplacer-engagedCitizen label:before {
+	display: inline-block;
+	border: 1px solid #FD525C;
+}
+
+.investmentType-button:checked + label,
+.investmentType-button + label:hover { background-color: #FD525C; }
+
+.investmentType-button input:checked + label,
+.signupForm-fieldsetReplacer input + label:hover {
+	color: #FFF;
+}
+
+.engagedCitizen-submit {
+	text-align: center;
+	margin: 5em 0 1em 0;
+	border: none;
+	background-color: #FD525C;
+}
+.container-wrapper {
+	text-align: center;
+}

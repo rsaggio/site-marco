@@ -1,0 +1,29 @@
+.publicSponsor-submit {
+	background-color: #88C554;
+}
+
+.somePublicProject-information-button + label {
+	color: #88C554;
+	border: 2px solid #88C554;
+}
+
+.somePublicProject-information-button:checked + label,
+.somePublicProject-information-button + label:hover { background-color: #88C554; }
+
+.somePublicProject-information-button input:checked + label {
+	color: #FFF;
+}
+
+.fieldsetReplacer-publicSponsor label {
+	color: #88C554;
+}
+
+.fieldsetReplacer-publicSponsor label:before {
+	display: inline-block;
+	border: 1px solid #88C554;
+}
+
+.publicSponsor-submit {
+	background-color: #88C554;
+	border: 1px solid #88C554;
+}

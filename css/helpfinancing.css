@@ -1,0 +1,33 @@
+.helpfinancing-cover {
+	background-color: #F8F706;
+}
+
+.financing-button {
+	background-color: #000;
+}
+
+@media(min-width: 768px) {
+
+	.energyUrbanDevelopment {
+		padding-left: 30%;
+		padding-right :0;
+		background-position: bottom left;
+		background-size: 200px 250px;
+		background-repeat: no-repeat;
+		background-image: url(../img/head.svg);
+	}
+
+}
+
+@media(min-width: 1100px) {
+
+	.energyUrbanDevelopment {
+		background-size: 400px 200px;
+	}
+}
+
+@media(min-width: 1400px) {
+	.energyUrbanDevelopment {
+		background-size: 280px 280px;
+	}
+}

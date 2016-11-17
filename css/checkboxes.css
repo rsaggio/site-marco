@@ -1,0 +1,100 @@
+.fieldsetReplacer-checkboxes {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+
+	font-size: .9em;
+}
+
+.fieldsetReplacer-checkboxes input[type=checkbox] {
+	display: none;
+}
+
+.checkbox-wrapper {
+	-ms-flex-preferred-size: 100%;
+	    flex-basis: 100%;
+}
+
+.engagedCitizen input:checked + label:before {
+	background-color: #FD525C;
+}
+
+.investor input:checked + label:before {
+	background-color: #33CC99;
+}
+
+.investor .checkbox-wrapper label {
+	color: #33CC99;
+}
+
+.engagedCitizen .checkbox-wrapper label {
+	color: #FD525C;
+}
+
+.investor .checkbox-wrapper label:before {
+	border: 1px solid #33CC99;
+}
+
+.engagedCitizen .checkbox-wrapper label:before {
+	border: 1px solid #FD525C;
+}
+
+.checkbox-wrapper label {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-preferred-size: 100%;
+	    flex-basis: 100%;
+	font-size: 1.5em;
+	line-height: 1.2;
+	margin-top: .8em;
+	cursor: pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
+	background-color: #FFF;
+}
+
+.checkbox-wrapper label:before {
+	display: inline-block;
+	border-radius: 8px;
+	content: '';
+	width: 22px;
+	height: 22px;
+	margin-right: .4em;
+	margin-bottom: 3.5px;
+}
+
+@media(min-width: 768px) {
+	
+	.checkbox-wrapper {
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
+
+	.checkbox-wrapper {
+		-ms-flex-preferred-size: 33%;
+		    flex-basis: 33%;
+	}
+
+}
+
+@media(min-width: 1200px) {
+	.checkbox-wrapper label:before {
+		width: 35px;
+		height: 35px;
+	}
+}
+

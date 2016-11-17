@@ -1,0 +1,193 @@
+.fieldset-title {
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: .8em;
+	display: block;
+	width: 100%;
+}
+
+.signupForm .signupForm-button {
+	border-radius: 8px;
+}
+
+.signupForm-fieldsetReplacer {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.signupForm-fieldsetReplacer input[type=radio] {
+	display: none;
+}
+
+.clientType-investor + label {
+	color: #33CC99;
+	border: 2px solid #33CC99;
+}
+
+.clientType-engagedCitizen + label {
+	color: #FD525C;
+	border: 2px solid #FD525C;
+}
+
+.clientType-privateSponsor + label {
+	color: #4C97EF;
+	border: 2px solid #4C97EF;
+}
+
+.clientType-publicSponsor + label {
+	color: #88C554;
+	border: 2px solid #88C554;
+}
+
+#clientType-investor:checked + label,
+#clientType-investor + label:hover { background-color: #33CC99; }
+
+#clientType-engagedCitizen:checked + label,
+#clientType-engagedCitizen + label:hover { background-color: #FD525C; }
+
+#clientType-privateSponsor:checked + label,
+#clientType-privateSponsor + label:hover { background-color: #4C97EF; }
+
+#clientType-publicSponsor:checked + label,
+#clientType-publicSponsor + label:hover { background-color: #88C554; }
+
+.signupForm-fieldsetReplacer input:checked + label,
+.signupForm-fieldsetReplacer input + label:hover {
+	color: #FFF;
+}
+
+.hearAboutUs-fieldset {
+	margin-top: 1.2em;
+}
+
+.hearAboutUs-fieldset-legend {
+	font-size: 1.5em;
+	color: #0D0D0B;
+	letter-spacing: 0.5px;
+	text-align: center;
+	display: block;
+	display: block;
+	width: 100%;
+}
+
+.signupForm-input {
+	display: block;
+	width: 100%;
+	color: #000;
+	font-size: 1.5em;
+	border: 1px solid #989898;
+	border-radius: 8px;
+	padding: 0.5em;
+	box-sizing: border-box;
+	margin-top: .8em;
+	outline: none;
+}
+
+.submit-or-login {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: column-reverse;
+	        flex-direction: column-reverse;
+}
+
+.already-member {
+	text-align: center;
+	font-size: 1.5em;
+	margin: .8em 0;
+	display: block;
+}
+
+.already-member a {
+	color: #FD525C;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.standard-button {
+	background-color: #33CC99;
+	border: 1px solid #33CC99;
+}
+
+@media(min-width: 768px) {
+
+	main {
+		position: relative;
+	}
+
+	.fieldset-title {
+		margin-top: 1.5em;
+	}
+
+	.signupForm-fieldsetReplacer {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+
+	.signupForm-fieldsetReplacer label {
+		-ms-flex-preferred-size: 20.5%;
+		    flex-basis: 20.5%;
+		text-align: center;
+	}
+
+	.input-half {
+		width: 47.5%;
+		display: inline-block;
+	}
+
+	.input-half:first-child {
+		margin-right: 5%;
+	}
+
+	.submit-or-login {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+	}
+
+	.hearAboutUs-fieldset-legend {
+		text-align: left;
+	}
+
+	.already-member {
+		width: 170px;
+		line-height: 1.2;
+	}
+
+	.container-wrapper {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	#signupForm-select {
+		padding: .5em;
+	}
+
+}
+
+@media(min-width: 1400px) {
+	.already-member {
+		width: 220px;
+	}
+}
+

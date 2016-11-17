@@ -1,0 +1,85 @@
+.login {
+	text-align: center;
+	width: 92%;
+}
+
+.login-title {
+	font-size: 4em;
+	font-weight: 700;
+	margin-top: 2em;
+}	
+
+.login-subtitle {
+	font-size: 2em;
+	margin-top: 1.5em;
+}
+
+.login .signupForm-input {
+	margin-top: 2em;
+	padding: 1em;
+	font-size: 1.5em;
+}
+
+.loginButton {
+	color: #FFF;
+	background-color: #000;
+	border: 1px solid #000;
+	display: block;
+	width: 100%;
+	margin: 2.5em auto;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.forgot-password {
+	margin-top: 2.5em;
+	font-size: 1.2em;
+	margin-bottom: 3em;
+}
+
+.forgot-password span {
+	display: block;
+	margin-top: .5em;
+}
+
+.forgot-password span a {
+	text-decoration: none;
+	color: #33CC99;
+	font-weight: 700;
+}
+
+.signupForm-textarea {
+	width: 100%;
+	height: 300px;
+	border: 1px solid #989898;
+	border-radius: 8px;
+	font-size: 1.5em;
+	padding: 1em;
+	line-height: 1.5;
+	margin-top: 1em;
+	box-sizing: border-box;
+}
+
+.container.login {
+	padding-bottom: .2em;
+}
+
+@media(min-width: 768px) {
+
+	.login {
+		width: 80%;
+	}
+	
+	.loginButton {
+		width: 260px;
+	}
+
+}
+
+@media(min-width: 1100px) {
+	.login {
+		width: 60%;
+	}
+}
+
+

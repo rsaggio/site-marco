@@ -1,0 +1,39 @@
+.investor-text {
+	color: #33CC99;
+}
+
+.fieldset-title.investor {
+	color: #33CC99;
+}
+
+.fieldset-title.investor-text {
+	font-weight: 700;
+}
+
+.fieldset-title-withInputs {
+	line-height: 1.5;
+}
+
+.input-insideText {
+	border: 0;
+	border-bottom: 1px solid #33CC99;
+	padding-bottom: .1em;
+
+	vertical-align: middle;
+	outline: 0;
+	font-size: inherit;
+	color: #33CC99;
+	display: inline-block;
+}
+
+.insideText-age {
+	width: 30px;
+}
+
+.insideText-zipcode {
+	width: 150px;
+}
+
+.investor-submit {
+	margin-bottom: 1em;
+}
